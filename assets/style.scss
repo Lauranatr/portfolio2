@@ -23,7 +23,7 @@ h2 {
 
 h3 {
   font-family: "brevia", sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   font-style: italic;
   color: #f7ede2;
 }
@@ -162,7 +162,7 @@ a {
 
     .text_shadows {
       font-size: 40px;
-      top: 35px;
+      top: 30px;
     }
 
     img {
@@ -274,8 +274,8 @@ main {
 @media (max-width: 768px) {
   .description_about {
     flex-direction: column;
-    height: 750px;
-    gap: 50px;
+    height: 650px;
+    gap: 20px;
 
     .picture {
       height: 250px;
@@ -285,12 +285,14 @@ main {
       }
 
       a {
+        padding-top: 20px;
         font-size: 20px;
       }
     }
 
     .texte_about {
       width: 80%;
+      height: 250px;
 
       h2 {
         margin: 0px;
@@ -722,10 +724,30 @@ main {
   align-items: center;
   background-color: #edddd4;
   height: 100%;
+  gap: 20px;
   padding: 50px;
+
+  img {
+    height: 40px;
+  }
 
   h3 {
     margin: 0;
     color: #283d3b;
+  }
+}
+
+@media (max-width: 768px) {
+  .container_footer {
+    padding: 30px;
+    gap: 10px;
+
+    img {
+      height: 20px;
+    }
+
+    h3 {
+      font-size: 10px;
+    }
   }
 }

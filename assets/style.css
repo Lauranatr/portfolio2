@@ -23,7 +23,7 @@ h2 {
 
 h3 {
   font-family: "brevia", sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   font-style: italic;
   color: #f7ede2;
 }
@@ -132,7 +132,7 @@ a {
   }
   .content .text_shadows {
     font-size: 40px;
-    top: 35px;
+    top: 30px;
   }
   .content img {
     width: 70px;
@@ -223,8 +223,8 @@ main {
 @media (max-width: 768px) {
   .description_about {
     flex-direction: column;
-    height: 750px;
-    gap: 50px;
+    height: 650px;
+    gap: 20px;
   }
   .description_about .picture {
     height: 250px;
@@ -233,10 +233,12 @@ main {
     height: 200px;
   }
   .description_about .picture a {
+    padding-top: 20px;
     font-size: 20px;
   }
   .description_about .texte_about {
     width: 80%;
+    height: 250px;
   }
   .description_about .texte_about h2 {
     margin: 0px;
@@ -596,9 +598,26 @@ main {
   align-items: center;
   background-color: #edddd4;
   height: 100%;
+  gap: 20px;
   padding: 50px;
+}
+.container_footer img {
+  height: 40px;
 }
 .container_footer h3 {
   margin: 0;
   color: #283d3b;
+}
+
+@media (max-width: 768px) {
+  .container_footer {
+    padding: 30px;
+    gap: 10px;
+  }
+  .container_footer img {
+    height: 20px;
+  }
+  .container_footer h3 {
+    font-size: 10px;
+  }
 }/*# sourceMappingURL=style.css.map */
